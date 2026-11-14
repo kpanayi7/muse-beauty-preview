@@ -227,3 +227,16 @@ html.amp-motion .steps > :not(.is-lit) { opacity: 0.45; }
 .v-label { font-size: 0.85rem; letter-spacing: 0.08em; }
 .v-amount { font-family: var(--serif); font-size: 1.5rem; font-weight: 600; }
 @media (max-width: 960px) { .voucher-in { grid-template-columns: 1fr; gap: 36px; } .voucher-card { max-width: 420px; } }
+
+/* Legal pages (added 14 Nov 2026) */
+.legal-page .site-header { position: sticky; top: 0; }
+.legal-nav { margin-left: auto; font-size: 0.92rem; }
+.legal-nav a { text-decoration: none; }
+.legal-nav a:hover { text-decoration: underline; }
+.legal h1 { margin: 8px 0 6px; }
+.legal h2 { font-size: 1.5rem; margin: 34px 0 8px; }
+.legal p + p { margin-top: 10px; }
+.legal .updated { font-size: 0.9rem; opacity: 0.75; }
+.legal a { color: var(--mocha); }
+.tbc { background: #FFE9A8; color: var(--ink); padding: 1px 6px; border-radius: 4px; font-size: 0.85em; font-weight: 500; }
+@media (max-width: 960px) { .legal-nav { display: none; } }
